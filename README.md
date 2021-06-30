@@ -94,6 +94,12 @@ This following values are hitting the endpoint as a request from user.
 
 Skeleton Project from  https://start.spring.io  
 
+
+### Jenkins 
+
+Added pipeline screenshot of my local jenkins in documents folder.
+
 Jenkins: http://localhost:8080
 
 Attached screenshot of my local Jenkins CI/CD page is in docs folder.
+
