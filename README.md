@@ -44,10 +44,17 @@ This following values are hitting the endpoint as a request from user.
     
     COUNTRY - User's country
     
-    STATUS - User status ; New User- N; 
+    STATUS - User status ; New User- N; Blacklisted User: B;
+    
 
 ---------------------------------------
 
+    Use POST method for same endpoint to populate data in DB
+    
+    POST call : http://localhost:9092/exclusion/v1.0/user
+    
+    and try GET call to view the list of blacklisted users.
+    
     GET call : http://localhost:9092/exclusion/v1.0/user
    
 
